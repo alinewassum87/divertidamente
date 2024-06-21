@@ -63,7 +63,7 @@ main .cartao {
 
 main .cartao:hover {
     background-color: #2966bd;
-    transform: scale(1.6);
+    transform: scale(1.4);
     cursor: pointer;
 }
 
