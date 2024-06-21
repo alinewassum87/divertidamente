@@ -20,7 +20,7 @@ header {
 header .logo,
 header .imagem-botao {
     width: 40px;
-    transition: 0.2s ease-in-out;
+    transition: 0.8s ease-in-out;
 }
 
 header .logo:hover,
@@ -63,7 +63,7 @@ main .cartao {
 
 main .cartao:hover {
     background-color: #2966bd;
-    transform: scale(1.4);
+    transform: scale(1.3);
     cursor: pointer;
 }
 
@@ -148,5 +148,44 @@ main .descricao {
 
 .imagem-rodape {
     width: 400px;
-    transition: 0.5s ease-in-out;
+    transition: 0.9s ease-in-out;
+}
+
+@media (max-width: 864px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header .logo {
+        width: 250px;
+        padding: 5%;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    main .listagem {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main .cartao {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    main .cartao:hover {
+        transform: scale(1.05);
+    }
+
+    .rodape {
+        padding: 5%;
+    }
+
+    .imagem-rodape {
+        width: 100%;
+        max-width: 300px;
+    }
 }
